@@ -2,30 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-body{
-    background-image: radial-gradient(circle at 50% -20.71%, #faffff 0, #d8f0fa 25%, #b5def2 50%, #92cbeb 75%, #72b9e5 100%);
-}
+
 form{
-    width: 350px;
-    height: 250px;
+    width: 25%;
+    height: 65%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     justify-content:center;
-    margin: 2% auto;
+    padding: 25px 15px;
     box-shadow: 0 9px 50px blue;
    
 }
 
 .log{
-    
-    display: flex;
-  
-    
-    justify-content: space-around;
-  
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  
-    margin: 0 auto;
+    height: 100%;
+    width: 100%;
 }
 
 .header form{
@@ -35,14 +30,22 @@ form{
 }
 
 .header-form h2{
+    position: relative;
     text-align: center;
-    display:block;
+    margin-top: 40px;
+    padding: 0 0 20px
 }
 
 .img_logo{
     object-fit: cover;
-    height: 50px;
-    object-position: center;
-    left: 50%;
-    margin: 25px;
+    height: 120px;
+    position: absolute;
+    top: -60px;
+    left: calc(52% - 50px);
+    
+    
+}
+
+.datos{
+    margin-top: 40px;
 }
