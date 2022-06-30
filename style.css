@@ -4,9 +4,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+body{
+    display:flex;
+    min-height: 100vh;
+}
 form{
-    width: 25%;
+    max-width: 350px;
+    width: 90%;
     height: 70%;
     position:absolute;
     top: 50%;
@@ -32,17 +36,19 @@ form{
 .header-form h2{
     position: relative;
     text-align: center;
-    margin-top: 40px;
-    padding: 0 0 20px
+    font-family: sans-serif;
+    margin-top: 18%;
+   
     
 }
 
 .img_logo{
     object-fit: cover;
-    height: 120px;
+    height: 28%;
     position: absolute;
-    top: -60px;
-    left: calc(52% - 50px);
+    top: -17%;
+    left: 37%;
+    
     
     
 }
@@ -55,7 +61,7 @@ input[class="form-input"]{
     width: 95%;
     height: 50%;
   
-    margin-top: 5%;
+
     padding: 15px;
     
     font-size: 16px;
@@ -81,7 +87,7 @@ button {
     display: inline-block;
     color: #252537;
   
-    width: 280px;
+    width: 90%;
     height: 50px;
   
     padding: 0 20px;
@@ -101,8 +107,24 @@ button {
 
 .submits {
     width: 48%;
-    display: inline-block;
+}
+#eye{
+
+    background: #fff;
+    color: #333;
+  
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+  
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
     
+    cursor: pointer;   
     margin-left: 2%;
 }
 button:hover {
@@ -121,4 +143,29 @@ button:hover {
     100% {
         transform: translateY(5px);
     }
+}
+
+.input-item {
+    background: black;
+    color: #333;
+    
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+#eye {
+    background: #fff;
+    color: #333;
+  
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+  
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
+        
+    cursor: pointer;
 }
