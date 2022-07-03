@@ -6,35 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
     <form>
         <div class = "log">   
             <div class = "header-form">     
                 <img src="images/uc_logo.png" class = "img_logo" alt="">
-                <h2>Log In</h2>
+                <h2>Iniciar sesion</h2>
             </div>
             <div class = "datos">
+                <!--   user name -->
                 <span class="input-item">
                     <i class="fa fa-user-circle"></i>
                 </span>
-    
-                <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required>
-                
+                <!--   user name Input-->
+                <input class="form-input" id="txt-input" type="text" placeholder="Usuario" required>
+      
+            
+      
+            <!--   Password -->
+      
                 <span class="input-item">
                     <i class="fa fa-key"></i>
                 </span>
-                <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>
+       <!--   Password Input-->
+                <input class="form-input" type="password" placeholder="Contraseña" id="pwd"  name="password" required>
+      
+ <!--      Show/hide password  -->
                 <span>
                     <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
                 </span>
-                 
+      
+      
             </div>
-            
-            <button class="log-in"> Log In </button>
-  
-        </div>
+            <footer>
+                <button class="login-btn">Login
+                    
+                </button>
+            </footer>
+            </div>
+
+        
         
     </form>
+    <script src="funciones.js"></script>
 </body>
 </html>
