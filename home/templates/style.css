@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: popins, sans-serif;
+}
+body{
+    display:flex;
+    
+    
+
+}
+form{
+    
+    min-height: 450px;
+    max-width: 400px;
+    width: 90%;
+    height: 70%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content:center;
+    padding: 25px 15px;
+    box-shadow: 0 9px 50px  #4481eb;
+    
+}
+
+.log{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.header form{
+    margin: 2% auto 10% auto;
+    text-align: center;
+
+}
+
+.header-form h2{
+    position: relative;
+    text-align: center;
+    font-family: popins;
+    margin-top: 18%;
+    font-size: 1.5em;
+   
+    
+}
+
+.img_logo{
+    object-fit: cover;
+    height: 28%;
+    position: absolute;
+    top: -3.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.datos{
+    margin-top: 16%;
+   
+}
+
+input[class="form-input"]{
+    width: 87%;
+    height: 50%;
+    
+   
+    padding: 10px;
+    
+    font-size: 16px;
+    font-family:  sans-serif;
+    color: black;
+    outline: none;
+    border: none;
+    margin-bottom: 9%;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.2s linear;
+    
+}
+
+
+
+input:focus {
+    transform: translateX(-5px);
+    border-radius: 5px;
+}
+
+
+#eye{
+
+    background: transparent;
+    color: #333;
+    padding: 2px;
+    
+    border-radius: 0px 5px 5px 0px;
+    float: right;
+    position: relative;
+    z-index: 5;
+    right: 3%;
+    cursor: pointer;   
+    
+}
+
+.login_btn{
+    position: absolute;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    bottom: 15%;
+    left: 20%;
+    height: 10%;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+  
+.login_btn:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+  
+.login_btn:focus {
+    outline: none;
+}
+  
+.login_btn.bn18 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
